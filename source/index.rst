@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-欢迎阅读MDK的编译过程及文件类型全解文档!
+欢迎阅读《MDK的编译过程及文件类型全解》文档-by 秉火
 =================================
 
 
