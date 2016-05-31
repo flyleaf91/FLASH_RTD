@@ -3,22 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to FLASH's documentation!
+欢迎阅读MDK的编译过程及文件类型全解文档!
 =================================
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 
 
@@ -5867,263 +5856,94 @@ UART”接口跟电脑，在电脑端打开串口调试助手，把编译好的�
 1. 分别设置芯片为读保护级别1、写保护及PCROP保护，然后给芯片的内部FLASH下载程序，观察实验现象。
 
 .. |image0| image:: img/media/image1.jpg
-   :width: 5.76806in
-   :height: 2.63403in
 .. |image1| image:: img/media/image2.jpg
-   :width: 4.66574in
-   :height: 3.71770in
 .. |image2| image:: img/media/image3.jpg
-   :width: 4.06272in
-   :height: 0.95315in
 .. |image3| image:: img/media/image4.jpg
-   :width: 3.28634in
-   :height: 4.28221in
 .. |image4| image:: img/media/image5.jpeg
-   :width: 5.61806in
-   :height: 2.19217in
 .. |image5| image:: img/media/image6.jpg
-   :width: 1.86571in
-   :height: 1.97917in
 .. |image6| image:: img/media/image7.jpg
-   :width: 5.76806in
-   :height: 3.43056in
 .. |image7| image:: img/media/image8.jpg
-   :width: 2.31250in
-   :height: 1.65672in
 .. |image8| image:: img/media/image9.jpg
-   :width: 4.48721in
-   :height: 3.67195in
 .. |image9| image:: img/media/image10.jpg
-   :width: 2.67896in
-   :height: 2.83319in
 .. |image10| image:: img/media/image11.jpg
-   :width: 3.76992in
-   :height: 2.80407in
 .. |image11| image:: img/media/image12.jpg
-   :width: 5.76255in
-   :height: 2.33333in
 .. |image12| image:: img/media/image13.jpg
-   :width: 5.78472in
-   :height: 3.34333in
 .. |image13| image:: img/media/image14.jpg
-   :width: 5.81250in
-   :height: 3.14926in
 .. |image14| image:: img/media/image15.jpg
-   :width: 3.87462in
-   :height: 2.88194in
 .. |image15| image:: img/media/image16.jpg
-   :width: 4.36012in
-   :height: 3.24306in
 .. |image16| image:: img/media/image17.jpg
-   :width: 4.48611in
-   :height: 2.46180in
 .. |image17| image:: img/media/image18.jpg
-   :width: 4.78175in
-   :height: 2.95965in
 .. |image18| image:: img/media/image19.jpg
-   :width: 3.28725in
-   :height: 1.76389in
 .. |image19| image:: img/media/image20.jpg
-   :width: 3.81705in
-   :height: 4.24627in
 .. |image20| image:: img/media/image21.jpeg
-   :width: 5.76806in
-   :height: 2.73194in
 .. |image21| image:: img/media/image22.jpg
-   :width: 4.47481in
-   :height: 3.32836in
 .. |image22| image:: img/media/image23.jpg
-   :width: 4.46477in
-   :height: 3.32090in
 .. |image23| image:: img/media/image4.jpg
-   :width: 3.28634in
-   :height: 4.28221in
 .. |image24| image:: img/media/image24.jpg
-   :width: 4.24534in
-   :height: 3.15747in
 .. |image25| image:: img/media/image25.jpg
-   :width: 5.76806in
-   :height: 1.36389in
 .. |image26| image:: img/media/image26.jpg
-   :width: 5.76806in
-   :height: 1.14514in
 .. |image27| image:: img/media/image27.jpg
-   :width: 5.86111in
-   :height: 3.26786in
 .. |image28| image:: img/media/image28.jpg
-   :width: 4.03386in
-   :height: 3.00018in
 .. |image29| image:: img/media/image29.jpg
-   :width: 3.02288in
-   :height: 2.14069in
 .. |image30| image:: img/media/image30.jpeg
-   :width: 5.76806in
-   :height: 3.87839in
 .. |image31| image:: img/media/image31.jpeg
-   :width: 4.27773in
-   :height: 3.77083in
 .. |image32| image:: img/media/image32.jpg
-   :width: 5.65278in
-   :height: 1.67361in
 .. |image33| image:: img/media/image33.jpg
-   :width: 3.90263in
-   :height: 2.90278in
 .. |image34| image:: img/media/image34.jpg
-   :width: 3.97733in
-   :height: 2.95833in
 .. |image35| image:: img/media/image35.jpg
-   :width: 4.57639in
-   :height: 3.42045in
 .. |image36| image:: img/media/image36.jpeg
-   :width: 5.69294in
-   :height: 1.29861in
 .. |image37| image:: img/media/image37.jpg
-   :width: 5.76806in
-   :height: 1.08889in
 .. |image38| image:: img/media/image38.jpg
-   :width: 2.84028in
-   :height: 0.74577in
 .. |image39| image:: img/media/image39.jpg
-   :width: 2.59277in
-   :height: 3.30114in
 .. |image40| image:: img/media/image40.jpg
-   :width: 5.76806in
-   :height: 3.66111in
 .. |image41| image:: img/media/image41.jpg
-   :width: 5.76806in
-   :height: 3.35417in
 .. |image42| image:: img/media/image42.jpg
-   :width: 5.76806in
-   :height: 2.15903in
 .. |image43| image:: img/media/image43.jpg
-   :width: 5.76806in
-   :height: 3.45347in
 .. |image44| image:: img/media/image44.jpg
-   :width: 3.41123in
-   :height: 3.61157in
 .. |image45| image:: img/media/image45.jpg
-   :width: 4.21462in
-   :height: 3.13463in
 .. |image46| image:: img/media/image46.jpg
-   :width: 3.71412in
-   :height: 2.76238in
 .. |image47| image:: img/media/image47.jpg
-   :width: 4.43056in
-   :height: 3.29523in
 .. |image48| image:: img/media/image48.jpg
-   :width: 4.35871in
-   :height: 3.24179in
 .. |image49| image:: img/media/image49.jpg
-   :width: 4.87677in
-   :height: 1.73879in
 .. |image50| image:: img/media/image50.jpg
-   :width: 4.39453in
-   :height: 5.58497in
 .. |image51| image:: img/media/image51.jpg
-   :width: 3.62254in
-   :height: 2.69444in
 .. |image52| image:: img/media/image52.jpg
-   :width: 3.84537in
-   :height: 2.04167in
 .. |image53| image:: img/media/image53.jpg
-   :width: 5.09807in
-   :height: 1.99970in
 .. |image54| image:: img/media/image54.jpg
-   :width: 5.76806in
-   :height: 1.46370in
 .. |image55| image:: img/media/image55.jpg
-   :width: 5.74293in
-   :height: 4.45772in
 .. |image56| image:: img/media/image56.jpg
-   :width: 3.24180in
-   :height: 2.38102in
 .. |image57| image:: img/media/image51.jpg
-   :width: 3.62254in
-   :height: 2.69444in
 .. |image58| image:: img/media/image57.jpg
-   :width: 5.75410in
-   :height: 1.28914in
 .. |image59| image:: img/media/image58.jpg
-   :width: 3.64583in
-   :height: 3.70942in
 .. |image60| image:: img/media/image59.jpg
-   :width: 5.76806in
-   :height: 1.84018in
 .. |image61| image:: img/media/image60.jpg
-   :width: 5.49492in
-   :height: 1.18750in
 .. |image62| image:: img/media/image61.jpg
-   :width: 4.87362in
-   :height: 3.62500in
 .. |image63| image:: img/media/image62.png
-   :width: 5.76528in
-   :height: 0.99097in
 .. |image64| image:: img/media/image63.jpg
-   :width: 3.89503in
-   :height: 4.36857in
 .. |image65| image:: img/media/image64.jpg
-   :width: 5.76806in
-   :height: 3.43194in
 .. |image66| image:: img/media/image65.jpg
-   :width: 2.50314in
-   :height: 2.79851in
 .. |image67| image:: img/media/image66.jpg
-   :width: 5.17164in
-   :height: 3.81367in
 .. |image68| image:: img/media/image67.jpg
-   :width: 4.13861in
-   :height: 2.97015in
 .. |image69| image:: img/media/image68.jpg
-   :width: 4.52628in
-   :height: 3.36642in
 .. |image70| image:: img/media/image69.jpg
-   :width: 4.68657in
-   :height: 3.48587in
 .. |image71| image:: img/media/image70.jpg
-   :width: 4.77793in
-   :height: 4.13884in
 .. |image72| image:: img/media/image71.png
-   :width: 0.39589in
-   :height: 0.31254in
 .. |image73| image:: img/media/image71.png
-   :width: 0.39589in
-   :height: 0.31254in
 .. |image74| image:: img/media/image72.png
-   :width: 0.42714in
-   :height: 0.33338in
 .. |image75| image:: img/media/image73.jpg
-   :width: 4.54144in
-   :height: 3.61776in
 .. |image76| image:: img/media/image74.jpg
-   :width: 4.50729in
-   :height: 4.27612in
 .. |image77| image:: img/media/image75.jpeg
-   :width: 4.66904in
-   :height: 3.15972in
 .. |image78| image:: img/media/image76.jpg
-   :width: 5.76806in
-   :height: 2.23403in
 .. |image79| image:: img/media/image77.png
-   :width: 2.03465in
-   :height: 1.99070in
 .. |image80| image:: img/media/image78.png
-   :width: 6.00000in
-   :height: 2.27986in
 .. |image81| image:: img/media/image79.png
-   :width: 5.76806in
-   :height: 4.06902in
 .. |image82| image:: img/media/image80.jpg
-   :width: 4.35280in
-   :height: 3.26119in
 .. |image83| image:: img/media/image81.png
-   :width: 5.76806in
-   :height: 1.25041in
 .. |image84| image:: img/media/image82.png
-   :width: 5.76806in
-   :height: 0.87455in
 .. |image85| image:: img/media/image83.jpg
-   :width: 4.87766in
-   :height: 3.19403in
 .. |image86| image:: img/media/image84.jpg
-   :width: 4.90639in
-   :height: 2.40299in
+
+
+.. toctree::
+   :maxdepth: 7
+
