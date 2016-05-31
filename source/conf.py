@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'FLASH'
-copyright = u'2016, flyleaf'
+copyright = u'2016, 秉火网络科技有限公司'
 author = u'flyleaf'
 
 # The version info for the project you're documenting, acts as replacement for
